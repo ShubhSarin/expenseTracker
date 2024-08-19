@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="heading" id="heading">Expense Tracker</h1>
+    <div class="form-container">
+        <form id="add-form">
+            <input id="amount" class="input" type="number" placeholder="Amount">
+            <input id="name" class="input" type="text" placeholder="Name">
+            <button class="add-btn"><span class="btn-text">Add</span> <img class="pencil" src="Assets/pencil img.png" height="20px"width="14"></button>
+        </form>
+    </div>
+        <table id="data-table"><tr>
+            <th class="t-edit">
+                EDIT
+            </th>
+            <th class="amt">
+                Amount
+            </th>
+            <th class="table-name">
+                Name
+            </th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

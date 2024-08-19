@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: beige;
+    font-family: "New Amsterdam", sans-serif;
+}
+.heading {
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+}
+.add-btn {
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #b3e60c;
+    background-color: #b3e60c;
+    font-size: large;
+    font-weight: 700;
+    font-family: "New Amsterdam", sans-serif;
+    width: 100px;
+}
+.add-btn:hover {
+    background-color: #def690;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+.input {
+    height: 30px;
+    border-radius: 5px;
+    font-size: small;
+}
+table {
+    border: 2px solid black;
+}
+.table-name, .amt, .t-edit {
+    border: 2px solid black;
+}
+.amt {
+    width: 20vw;
+}
+.table-name {
+    width: 75vw;
+}
+.table-amt-data {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.table-name-data{
+    border-left: 2px solid black;
+    justify-content: space-between;
+}
+.t-edit-img {
+    border-right: 2px solid black;
+}
+.t-edit-img:hover {
+    cursor: pointer;
+}
+.form-container {
+    display: flex;
+    align-items:center;
+}
+.btn-text {
+    padding: 0;
+    margin: 0;
+}
+.in-btn {
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #b3e60c;
+    background-color: #b3e60c;
+    font-size: small;
+    font-weight: 700;
+    font-family: "New Amsterdam", sans-serif;
+    width: 50px;
+}
+.in-btn:hover {
+    background-color: #def690;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+#editamt, #editname {
+    background-color:#def690 ;
+    border-radius: 3px;
+}
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
